@@ -5,9 +5,9 @@ gan是xxx
 
 GAN 的训练基于极小极大（minimax）博弈，其目标函数如下：
 
-$$
+$
 \mathcal{L}_{\text{GAN}} = \mathbb{E}_{x \sim p_{\text{data}}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_z(z)}[\log(1 - D(G(z)))]
-$$
+$
 
 其中：
 - $x$ 是来自真实数据分布 $p_{\text{data}}(x)$ 的样本（如正常工况下的电流波形）；
